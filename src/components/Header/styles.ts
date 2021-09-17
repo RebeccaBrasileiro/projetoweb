@@ -8,8 +8,9 @@ export const Header = styled.header`
 
   h1{
     width:100%;
-    color: #D334A7;
+    color:${colors.rosaescuro};
     text-align: center;
+
   }
 
 `

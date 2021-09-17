@@ -1,26 +1,29 @@
+import { Link } from "react-router-dom";
 import * as S from "./styles";
 
 const Nav = () => {
     return(
-    <S.Nav>
-  <ul>        
+ <S.Nav>
+   <ul>        
       <li>
-        <a href="">DICAS</a>
+        <Link to="">DICAS</Link>
      </li>
         
       <li>
-         <a href="">AUTOMAQUIAGEM</a>
+      <Link to="">AUTOMAQUIAGEM </Link>
      </li>
         
       <li> 
-         <a href="">RESENHAS</a>
+      <Link to="">RESENHAS</Link>
      </li>
         
       <li>
-         <a href="">INSPIRAÇÕES</a>
+      <Link to="">INSPIRAÇÕES</Link>
      </li>       
-  </ul>
-  </S.Nav>
+   </ul>
+   <h3>Aqui você encontra tudo sobre maquiagem.</h3>
+   <h3>Venha conhecer os melhores truques e dicas.</h3>
+ </S.Nav>
     );
 };
 

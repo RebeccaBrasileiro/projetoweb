@@ -1,10 +1,12 @@
-import { Header, Nav} from "components";
+import { Header, Nav, Main,Footer} from "components";
 
 const Home = () => {
  return (
     <>
     <Header />
     <Nav />
+    <Main />
+    <Footer />
     </>
  );
 };
