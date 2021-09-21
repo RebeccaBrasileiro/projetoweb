@@ -10,6 +10,7 @@ export const Header = styled.header`
     width:100%;
     color:${colors.rosaescuro};
     text-align: center;
+    font-size: 3rem;
 
   }
 

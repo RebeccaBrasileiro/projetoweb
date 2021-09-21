@@ -6,7 +6,7 @@ const Nav = () => {
  <S.Nav>
    <ul>        
       <li>
-        <Link to="">DICAS</Link>
+        <Link to="/DicasGuia">DICAS</Link>
      </li>
         
       <li>

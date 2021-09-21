@@ -1,12 +1,14 @@
 import {Switch, Route} from "react-router-dom"
-import {Home} from "pages"
+import {Home, DicasG} from "pages"
 
-const Routes =( ) =>{
+const routes =( ) =>{
   return(
       <Switch>
+          <Route path ="/DicasGuia"  component ={DicasG} />
           <Route path ="/" component={Home}/>
+          
       </Switch>
   )
 }
 
-export default Routes
+export default routes

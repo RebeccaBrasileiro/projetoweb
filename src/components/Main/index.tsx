@@ -12,7 +12,7 @@ const Main = () => {
 
                  <img src= {maquiagemrosa} alt="maquiagem rosa"/>
          </div>
-
+     
         </S.Main>
     )
 }
